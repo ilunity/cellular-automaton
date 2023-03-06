@@ -63,7 +63,7 @@ export const CellularFrame: React.FC = () => {
           initRule={ INIT_RULE }
         />
         <Button
-          variant={ 'outlined' }
+          variant={ 'contained' }
           onClick={ handleStartStopClick }
         >
           { isActive ? 'Stop' : 'Start' }
